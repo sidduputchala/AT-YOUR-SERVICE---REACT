@@ -1,0 +1,38 @@
+.pestcontrol-card{
+    width:300px;
+    height:410px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border: 1px solid black;
+    border-radius:5px;
+}
+
+.pestcontrol:hover{
+    cursor: pointer;
+}
+
+.pestcontrol button:hover{
+    cursor: pointer;
+    background-color:white;
+    color:blue;
+}
+
+
+.pestcontrol-faqs{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pestcontrol-collapsible{
+    background-color: #eee;
+    color: #444;
+
+    padding: 18px;
+    width: 800px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}

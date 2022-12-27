@@ -1,0 +1,5 @@
+.pestcontrol-comp img:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.5s;
+}

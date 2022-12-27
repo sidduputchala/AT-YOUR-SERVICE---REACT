@@ -1,0 +1,44 @@
+
+
+form{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 5px;
+    font-style: normal;
+}
+
+form .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.formdiv{
+    margin-top:30px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 700px;
+    height: 730px;
+    box-shadow: 0px 2px 2px;
+
+}
+
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5px;
+
+}
+
+
+
+label{
+    font-size:15px;
+}

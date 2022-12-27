@@ -1,0 +1,65 @@
+#MainImage{
+    width: 100%;
+    height:600px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.services{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.services img{
+    width:200px;
+    height:150px;
+}
+
+.services-name:hover{
+    cursor: pointer;
+    color: #f5f5f5;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.5s;
+    background-color: #D75281;
+}
+
+
+
+.service-salon-img img{
+    border-radius: 10px;
+    width:300px;
+    height:180px;
+    margin-bottom: 10px;
+}
+
+
+.service-salon-img img:hover{
+    width:340px;
+    height:200px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.5s;
+    box-shadow: 1px 4px 6px
+}
+
+
+
+.grad{
+    /* border: 1px solid black; */
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin:10px;
+    width:79%;
+  
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.service-salon{
+   
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
